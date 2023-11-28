@@ -1,0 +1,102 @@
+html, body{
+    height: 100%;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        background-image: url('image/background2.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .container h1{
+        color: white;
+    }
+    .container h2{
+        color: white;
+    }
+    .container p{
+        color: white;
+    }
+    .card-body p {
+        color: black;
+    }
+    .col-md-6{
+        color: white;
+    }
+    /* .container p{ */
+        /* color: black; */
+    
+
+    .navheader{
+        background-image: url(image/background4.gif);   
+    }
+
+    .nav-link{
+        color: white;
+    }
+
+    .nav-link:hover{
+        color: white;
+        background-color:aquamarine;
+        border-radius: 10px;
+        transition: 1s ease;
+    }
+    
+    .navbar-light, .navbar-toggler{
+        color:#0018ff;
+        border-color:#0018ff;
+    }
+    
+    .navbar-light, .navbar-toggler :hover{
+        color:#0018ff;
+        border-color:#0018ff ;
+        font-weight:10px;
+    }
+    
+    
+    main{
+        flex:1 0 auto;
+    }
+    
+    footer{
+        flex-shrink: 0;
+    }
+    header{
+        background: no-repeat center center;
+        background-size: cover;
+        color: khaki;
+    }
+    
+    .color-overlay{
+        background-color: rgba(0, 0, 0, 0.4);
+        min-height: 60vh;
+    
+    }
+    
+    .singleCol{
+        max-width: 765px;
+    
+    }
+    
+    footer{
+        background-image: url(image/background1.gif);
+        color: rgb(68, 68, 68);
+    }
+    
+    footer a {
+        color: rgb(255, 245, 245);
+    }
+    
+    footer a:hover{
+        color: #dfdfdf;
+    }
+
+        
+    @media (max-width: 768px){
+        .color-overlay{
+            min-height: 30vh;
+        }
+    }
+    
